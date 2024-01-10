@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style/login.css">
+    <title>Admin Dashboard | LOGIN</title>
+</head>
+<body>
+
+    <!-- Container -->
+    <div class="container">
+        <div class="screen">
+            <div class="screen_content">
+                <form  class="login" id="loginForm">
+                    <div class="login__field">
+                        <i class="login__icon ri-user-line"></i>
+                        <input type="text" class="login__input" placeholder="User name / Email" id="userName">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon ri-lock-line"></i>
+                        <input type="password" class="login__input" placeholder="Password" id="password">
+                    </div>
+                    <button class="button login__submit" type="submit" id="loginButton">
+                        <span class="button_text">Log In Now</span>
+                        <i class="button_icon ri-arrow-right-s-line"></i>
+                    </button>
+
+                </form>
+                <div class="social-login">
+                    <h3>Log in via</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/accounts/login/" class="social-login__icon ri-instagram-line"></a>
+                        <a href="https://www.facebook.com/" class="social-login__icon ri-facebook-box-fill"></a>
+                        <a href="https://twitter.com/i/flow/login" class="social-login__icon ri-twitter-x-line"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen_bg">
+                <span class="screen_bg__shape screen_bg_shape4"></span>
+                <span class="screen_bg__shape screen_bg_shape3"></span>
+                <span class="screen_bg__shape screen_bg_shape2"></span>
+                <span class="screen_bg__shape screen_bg_shape1"></span>
+            </div>
+        </div>
+
+    </div>
+
+   
+    <script src="/db/db_user.js" defer ></script>
+    
+    
+    
+</body>
+</html>
